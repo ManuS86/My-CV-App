@@ -21,6 +21,7 @@ struct CategoryTitleCard: View {
                 .background(.darkblue)
                 .cornerRadius(16)
         }
+        .padding(.bottom, 8)
         .shadow(color: .gray, radius: 2, x: 1, y: 2)
     }
 }

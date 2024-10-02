@@ -10,9 +10,9 @@ import SwiftUI
 struct SkillsView: View {
     let headerWidth: CGFloat = 160
     let headerHeight: CGFloat = 32
-    let languages = ["- Deutsch (Muttersprache)", "- Englisch (C2)", "- Französisch (A2)", "- Spanisch (A2)"]
-    let techStack = ["- Figma", "- Git", "- GitHub", "- IntelliJ", "- Android Studio", "- Xcode"]
-    let softSkills = ["- Schnelle Auffassungsgabe", "- Sehr analytische Denkweise", "- Gute Problemlösefähigkeiten"]
+    let languages = ["🇩🇪 Deutsch (Muttersprache)", "🇺🇸 Englisch (C2)", "🇫🇷 Französisch (A2)", "🇪🇸 Spanisch (A2)"]
+    let techStack = ["• Figma", "• GitHub", "• IntelliJ", "• Android Studio", "• Xcode"]
+    let softSkills = ["• Schnelle Auffassungsgabe", "• Sehr analytische Denkweise", "• Gute Problemlösefähigkeiten"]
     
     var body: some View {
         VStack {

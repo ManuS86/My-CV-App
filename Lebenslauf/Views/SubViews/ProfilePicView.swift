@@ -11,31 +11,31 @@ struct ProfilePicView: View {
     let imgSize: CGFloat = 150
     
     var body: some View {
-            HStack {
-                VStack {
-                    Image("bewerbung")
-                        .resizable()
-                        .clipShape(.circle)
-                        .overlay(Circle().stroke(.darkblue, lineWidth: 6))
-                        .frame(width: imgSize, height: imgSize)
-                }
-                .padding(.leading, 24)
-                
-                VStack {
-                    Text("EMANUEL")
-                    Text("SUTOR")
-                    Text("Junior App Developer")
-                        .font(.subheadline)
-                        .fontWeight(.regular)
-                    
-                }
-                .font(.largeTitle)
-                .bold()
-                .foregroundColor(.white)
+        HStack {
+            VStack {
+                Image("bewerbung")
+                    .resizable()
+                    .clipShape(.circle)
+                    .overlay(Circle().stroke(.darkblue, lineWidth: 6))
+                    .frame(width: imgSize, height: imgSize)
             }
-            .frame(maxWidth: .infinity, maxHeight: 120, alignment: .leading)
-            .background(.darkblue)
-            .padding(.vertical, 8)
+            .padding(.leading, 24)
+            
+            VStack {
+                Text("EMANUEL")
+                Text("SUTOR")
+                Text("Junior App Developer")
+                    .font(.subheadline)
+                    .fontWeight(.regular)
+                
+            }
+            .font(.largeTitle)
+            .bold()
+            .foregroundColor(.white)
+        }
+        .frame(maxWidth: .infinity, maxHeight: 120, alignment: .leading)
+        .background(.darkblue)
+        .padding(.vertical, 8)
     }
 }
 
