@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CategoryTitleCard: View {
+struct CategoryCard: View {
     let headerWidth: CGFloat = 160
     let headerHeight: CGFloat = 32
     var title: String
@@ -27,5 +27,5 @@ struct CategoryTitleCard: View {
 }
 
 #Preview {
-    CategoryTitleCard(title: "Title")
+    CategoryCard(title: "Title")
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct EduAndExpCard: View {
+struct QualificationCard: View {
     var description: String
     var institution: String
     var date: String
@@ -39,5 +39,5 @@ struct EduAndExpCard: View {
 }
 
 #Preview {
-    EduAndExpCard(description: "Description", institution: "Institution", date: "2020-2024")
+    QualificationCard(description: "Description", institution: "Institution", date: "2020-2024")
 }
