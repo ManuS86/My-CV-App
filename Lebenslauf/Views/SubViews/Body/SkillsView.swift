@@ -16,7 +16,7 @@ struct SkillsView: View {
     
     var body: some View {
         VStack {
-            CategoryTitleCard(title: "Skills")
+            CategoryCard(title: "Skills")
             SkillsCard(category: "Sprachen", skillList: languages)
             SkillsCard(category: "TechStack", skillList: techStack)
             SkillsCard(category: "Soft Skills", skillList: softSkills)

@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct PersonalInfoView: View {
-    let iconSize: CGFloat = 30
+    let iconSize: CGFloat = 32
+    let smallIconSize: CGFloat = 16
     
     var body: some View {
         VStack {
@@ -36,10 +37,10 @@ struct PersonalInfoView: View {
                     Image(systemName: "envelope")
                     Image("linkedinSW")
                         .resizable()
-                        .frame(width: 16, height: 16)
+                        .frame(width: smallIconSize, height: smallIconSize)
                     Image("githubSW")
                         .resizable()
-                        .frame(width: 16, height: 16)
+                        .frame(width: smallIconSize, height: smallIconSize)
                 }
                 
                 VStack(alignment: .leading) {
