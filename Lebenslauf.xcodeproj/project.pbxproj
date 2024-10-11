@@ -3,13 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */; };
 		CE75F1F32C8B1428001AD0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */; };
 		CE75F1F62C8B1428001AD0A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE75F1F52C8B1428001AD0A3 /* Preview Assets.xcassets */; };
+		DE480ED42CB550D2002A71C6 /* Qualification.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480ED32CB550D2002A71C6 /* Qualification.swift */; };
+		DE480EEC2CB90F65002A71C6 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EE52CB90F65002A71C6 /* BodyView.swift */; };
+		DE480EED2CB90F65002A71C6 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EE62CB90F65002A71C6 /* EducationView.swift */; };
+		DE480EEE2CB90F65002A71C6 /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EE72CB90F65002A71C6 /* ExperienceView.swift */; };
+		DE480EEF2CB90F65002A71C6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EE82CB90F65002A71C6 /* HeaderView.swift */; };
+		DE480EF02CB90F65002A71C6 /* PersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EE92CB90F65002A71C6 /* PersonalInfoView.swift */; };
+		DE480EF12CB90F65002A71C6 /* ProfilePicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EEA2CB90F65002A71C6 /* ProfilePicView.swift */; };
+		DE480EF22CB90F65002A71C6 /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EEB2CB90F65002A71C6 /* SkillsView.swift */; };
+		DE480EF62CB90F65002A71C6 /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EF32CB90F65002A71C6 /* CategoryCard.swift */; };
+		DE480EF72CB90F65002A71C6 /* QualificationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EF42CB90F65002A71C6 /* QualificationCard.swift */; };
+		DE480EF82CB90F65002A71C6 /* SkillsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE480EF52CB90F65002A71C6 /* SkillsCard.swift */; };
 		DE938BBD2CAADFCE008DE8BC /* CVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE938BBC2CAADFCE008DE8BC /* CVView.swift */; };
 /* End PBXBuildFile section */
 
@@ -18,13 +29,19 @@
 		CE75F1EE2C8B1427001AD0A3 /* LebenslaufApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LebenslaufApp.swift; sourceTree = "<group>"; };
 		CE75F1F22C8B1428001AD0A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE75F1F52C8B1428001AD0A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE480ED32CB550D2002A71C6 /* Qualification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qualification.swift; sourceTree = "<group>"; };
+		DE480EE52CB90F65002A71C6 /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
+		DE480EE62CB90F65002A71C6 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		DE480EE72CB90F65002A71C6 /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		DE480EE82CB90F65002A71C6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DE480EE92CB90F65002A71C6 /* PersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoView.swift; sourceTree = "<group>"; };
+		DE480EEA2CB90F65002A71C6 /* ProfilePicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicView.swift; sourceTree = "<group>"; };
+		DE480EEB2CB90F65002A71C6 /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
+		DE480EF32CB90F65002A71C6 /* CategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCard.swift; sourceTree = "<group>"; };
+		DE480EF42CB90F65002A71C6 /* QualificationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualificationCard.swift; sourceTree = "<group>"; };
+		DE480EF52CB90F65002A71C6 /* SkillsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsCard.swift; sourceTree = "<group>"; };
 		DE938BBC2CAADFCE008DE8BC /* CVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DE5338742CAD484E005EE72E /* ViewTemplates */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewTemplates; sourceTree = "<group>"; };
-		DE5338752CAD4866005EE72E /* SubViews */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SubViews; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE75F1E82C8B1427001AD0A3 /* Frameworks */ = {
@@ -73,9 +90,35 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DE480EF92CB90FA8002A71C6 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				DE480F012CB91055002A71C6 /* ViewTemplates */,
+				DE480EE52CB90F65002A71C6 /* BodyView.swift */,
+				DE480EE62CB90F65002A71C6 /* EducationView.swift */,
+				DE480EE72CB90F65002A71C6 /* ExperienceView.swift */,
+				DE480EE82CB90F65002A71C6 /* HeaderView.swift */,
+				DE480EE92CB90F65002A71C6 /* PersonalInfoView.swift */,
+				DE480EEA2CB90F65002A71C6 /* ProfilePicView.swift */,
+				DE480EEB2CB90F65002A71C6 /* SkillsView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		DE480F012CB91055002A71C6 /* ViewTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				DE480EF32CB90F65002A71C6 /* CategoryCard.swift */,
+				DE480EF42CB90F65002A71C6 /* QualificationCard.swift */,
+				DE480EF52CB90F65002A71C6 /* SkillsCard.swift */,
+			);
+			path = ViewTemplates;
+			sourceTree = "<group>";
+		};
 		DE938BBA2CAADEC0008DE8BC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DE480ED32CB550D2002A71C6 /* Qualification.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -83,8 +126,7 @@
 		DE938BBB2CAADEC9008DE8BC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DE5338752CAD4866005EE72E /* SubViews */,
-				DE5338742CAD484E005EE72E /* ViewTemplates */,
+				DE480EF92CB90FA8002A71C6 /* SubViews */,
 				DE938BBC2CAADFCE008DE8BC /* CVView.swift */,
 			);
 			path = Views;
@@ -104,10 +146,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				DE5338742CAD484E005EE72E /* ViewTemplates */,
-				DE5338752CAD4866005EE72E /* SubViews */,
 			);
 			name = Lebenslauf;
 			productName = Lebenslauf;
@@ -164,8 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE480ED42CB550D2002A71C6 /* Qualification.swift in Sources */,
 				DE938BBD2CAADFCE008DE8BC /* CVView.swift in Sources */,
 				CE75F1EF2C8B1427001AD0A3 /* LebenslaufApp.swift in Sources */,
+				DE480EEC2CB90F65002A71C6 /* BodyView.swift in Sources */,
+				DE480EED2CB90F65002A71C6 /* EducationView.swift in Sources */,
+				DE480EEE2CB90F65002A71C6 /* ExperienceView.swift in Sources */,
+				DE480EF62CB90F65002A71C6 /* CategoryCard.swift in Sources */,
+				DE480EF72CB90F65002A71C6 /* QualificationCard.swift in Sources */,
+				DE480EF82CB90F65002A71C6 /* SkillsCard.swift in Sources */,
+				DE480EEF2CB90F65002A71C6 /* HeaderView.swift in Sources */,
+				DE480EF02CB90F65002A71C6 /* PersonalInfoView.swift in Sources */,
+				DE480EF12CB90F65002A71C6 /* ProfilePicView.swift in Sources */,
+				DE480EF22CB90F65002A71C6 /* SkillsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

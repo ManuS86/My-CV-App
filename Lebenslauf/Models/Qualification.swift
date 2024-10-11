@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Qualification {
+struct Qualification: Hashable {
     let description: String
     let institution: String
     let date: String
